@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7211cc47.css",
+    "main.js": "/static/js/main.77f444ec.js",
+    "static/js/787.867ef6f8.chunk.js": "/static/js/787.867ef6f8.chunk.js",
+    "static/media/Screenshot 1.png": "/static/media/Screenshot 1.40a1227951882a952718.png",
+    "static/media/myPhoto.jpg": "/static/media/myPhoto.a107c7f1585ab94a1f32.jpg",
+    "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/static/media/Visual_Studio_Code_1.35_icon.svg.e66400756ccbdbfc0b31.png",
+    "static/media/HTML5.svg.png": "/static/media/HTML5.svg.5f77e90e11607bf9b3e1.png",
+    "static/media/1200px-CSS.3.svg.png": "/static/media/1200px-CSS.3.svg.de88f6dc082cdf8bbe67.png",
+    "static/media/typescript.png": "/static/media/typescript.b245770ff446238ba23b.png",
+    "static/media/gmail.png": "/static/media/gmail.0678ea09fbe114830e66.png",
+    "static/media/telega.png": "/static/media/telega.ca57e049ecfd9d46e238.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.3c4e1a5d3a149087b144.png",
+    "static/media/Git_icon.svg.png": "/static/media/Git_icon.svg.140fa4d62c3584333da4.png",
+    "static/media/marker.png": "/static/media/marker.462a3d6b123d643279be.png",
+    "static/media/sand-clock.png": "/static/media/sand-clock.2269a661fb768a50ab72.png",
+    "static/media/react-icon1.svg": "/static/media/react-icon1.903d77ad940b12efaddde2484397ad4a.svg",
+    "index.html": "/index.html",
+    "main.7211cc47.css.map": "/static/css/main.7211cc47.css.map",
+    "main.77f444ec.js.map": "/static/js/main.77f444ec.js.map",
+    "787.867ef6f8.chunk.js.map": "/static/js/787.867ef6f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7211cc47.css",
+    "static/js/main.77f444ec.js"
+  ]
+}
