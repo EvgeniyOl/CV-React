@@ -1,6 +1,8 @@
 
 
-import styles from "./myProjects.module.css"
+import styles from "./myProjects.module.css";
+import screen1 from "./../../../Images/Screenshot 1.png";
+import { Link } from "react-router-dom";
 const MyProjects = (props) => {
 
 
@@ -30,8 +32,7 @@ const MyProjects = (props) => {
 
          </ul>
          <hr size="5" />
-         <p>Четвертый проект - RSS Reader сервис для агрегации RSS-потоков, с помощью которых удобно читать разнообразные источники, например, блоги.
-            Он позволяет добавлять неограниченное количество RSS-лент, сам их обновляет и добавляет новые записи в общий поток.</p>
+
       </div>
 
    )

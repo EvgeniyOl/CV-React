@@ -30,7 +30,6 @@ const Technologies = (props) => {
             <ul>
                <li>Основы React/Redux <img width="16px" src={react} alt="react" /></li>
                <li>Основы Bootstrap <img width="16px" src={bootstrap} alt="bootstrap" /></li>
-               <li>Основы Type Script <img width="16px" src={ts} alt="ts" /></li>
             </ul>
          </div>
       </div>
