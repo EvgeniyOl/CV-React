@@ -1,0 +1,9 @@
+.BodyContainer {
+  display: grid;
+  grid-area: body;
+  align-self: start;
+  border: 3px solid #6e7681;
+  padding: 10px;
+  background-color: #161b22;
+  color: #c9d1d9;
+}
