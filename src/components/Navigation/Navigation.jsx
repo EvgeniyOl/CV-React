@@ -16,6 +16,8 @@ const Navigation = (props) => {
             <li><NavLink className={({ isActive }) => isActive ? styles.activeLink : styles.noActiveLink} to="/technologies" >Технологии</NavLink></li>
             <hr />
             <li><NavLink className={({ isActive }) => isActive ? styles.activeLink : styles.noActiveLink} to="/hobbies" >Хобби</NavLink></li>
+            <hr />
+            <li><NavLink className={({ isActive }) => isActive ? styles.activeLink : styles.noActiveLink} to="/test" >TEST</NavLink></li>
          </ul>
       </div >
    )

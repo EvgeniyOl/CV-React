@@ -5,6 +5,7 @@ import Hobbies from "./Hobbies/hobbies";
 import Experience from "./Experience/experience";
 import MyProjects from "./MyProjects/myProjects";
 import Technologies from "./Technologies/technologies";
+import Test from "./Test/Test";
 
 const Body = (props) => {
 
@@ -16,6 +17,7 @@ const Body = (props) => {
             <Route path="/projects" element={<MyProjects />} />
             <Route path="/technologies" element={<Technologies />} />
             <Route path="/hobbies" element={<Hobbies />} />
+            <Route path="/test" element={<Test name={'Vasiliy'} label={'label btn'} isPressed={'isPressed'} />} />
          </Routes>
       </div>
    )
