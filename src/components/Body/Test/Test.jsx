@@ -5,6 +5,11 @@ import TestCount from "./TestCount";
 import { TestButtonCount } from "./TestButtonCount";
 import { TestTextShow } from "./TestTextShow";
 import { SocialButton } from "../../Main-info/socialButton/SocialButton";
+import { TestForm } from "./TestForm";
+import { Editor } from "./TestTextarea";
+import { FlavourForm } from "./TestFlavourForm";
+import TodoBox from "./TestToDoBox";
+import Component from "./TestModalWindow";
 
 export default class Test extends React.Component {
    render() {
@@ -65,8 +70,35 @@ export default class Test extends React.Component {
                <TestTextShow />
             </div>
          </div>
+         <hr />
          <div>
+            0.7
             <SocialButton />
+         </div>
+         <hr />
+         <div>
+            0.8
+            <TestForm text={'hey!'} />
+         </div>
+         <hr />
+         <div>
+            0.9
+            <Editor text='initial text' />
+         </div>
+         <hr />
+         <div>
+            1.0
+            <FlavourForm />
+         </div>
+         <hr />
+         <div>
+            1.1
+            <TodoBox />
+         </div>
+         <hr />
+         <div>
+            1.2
+            <Component />
          </div>
       </div>;
    }
