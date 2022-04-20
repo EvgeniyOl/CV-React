@@ -3,6 +3,8 @@ import style from './Test.module.css';
 import cn from 'classnames';
 import TestCount from "./TestCount";
 import { TestButtonCount } from "./TestButtonCount";
+import { TestTextShow } from "./TestTextShow";
+import { SocialButton } from "../../Main-info/socialButton/SocialButton";
 
 export default class Test extends React.Component {
    render() {
@@ -55,6 +57,16 @@ export default class Test extends React.Component {
          <div>
             0.5
             <TestButtonCount />
+         </div>
+         <hr />
+         <div>
+            0.6
+            <div>
+               <TestTextShow />
+            </div>
+         </div>
+         <div>
+            <SocialButton />
          </div>
       </div>;
    }
