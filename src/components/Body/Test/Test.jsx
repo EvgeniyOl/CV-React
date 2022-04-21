@@ -10,6 +10,9 @@ import { Editor } from "./TestTextarea";
 import { FlavourForm } from "./TestFlavourForm";
 import TodoBox from "./TestToDoBox";
 import Component from "./TestModalWindow";
+import { Loader } from "./Loader";
+import Autocomplete from "./Autocomplite";
+import { Clock } from "./Clock2";
 
 export default class Test extends React.Component {
    render() {
@@ -99,6 +102,26 @@ export default class Test extends React.Component {
          <div>
             1.2
             <Component />
+         </div>
+         <hr />
+         <div>
+            1.3
+            <Loader />
+         </div>
+         <hr />
+         <div>
+            1.4
+            <Autocomplete />
+         </div>
+         <hr />
+         <div>
+            1.5
+            <Clock />
+         </div>
+         <hr />
+         <div>
+            1.6
+
          </div>
       </div>;
    }
