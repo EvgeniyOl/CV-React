@@ -1,148 +1,108 @@
+import Editor from "@toast-ui/editor";
 import React from "react";
-import style from './Test.module.css';
-import cn from 'classnames';
-import TestCount from "./TestCount";
-import { TestButtonCount } from "./TestButtonCount";
-import { TestTextShow } from "./TestTextShow";
-import { SocialButton } from "../../Main-info/socialButton/SocialButton";
-import { TestForm } from "./TestForm";
-import { Editor } from "./TestTextarea";
-import { FlavourForm } from "./TestFlavourForm";
-import TodoBox from "./TestToDoBox";
-import Component from "./TestModalWindow";
-import { Loader } from "./Loader";
-import Autocomplete from "./Autocomplite";
-import { Clock } from "./Clock2";
-import { UseStateHookCount } from "./UseStateHook";
-import { UseEffectHook } from "./UseEffectHook";
-import { UseRefHook } from "./UseRefHook";
+import { ButtonCount } from "./ButtonCount";
+import Count from "./Count";
+import { FlavourForm } from "./FlavourForm";
+import { Form } from "./Form";
+import { UseEffectHook } from "./Hooks/UseEffectHook";
+import { UseRefHook } from "./Hooks/UseRefHook";
+import { UseStateHookCount } from "./Hooks/UseStateHook";
+import ModalWindow from "./Modal/ModalWindow";
+import style from "./Test.module.css";
+import TodoBox from "./ToDoBox/TestToDoBox";
 
 export default class Test extends React.Component {
    render() {
-      const { isPressed, isHovered, label } = this.props;
-      const btnClass = cn('btn', {
-         'btn-danger': isPressed,
-         'btn-over': !isPressed && isHovered,
-      });
-      const params = {
-         className: 'green',
-         title: 'name',
-      }
-      const name = 'Eva'
-      return <div>
-         <div>Test Arena</div>
-
-
+      return (
          <div>
-            0.1
-            <div {...params}>
-               Props
-               Hello, {this.props.name}! Petya defaultProps
-               <div className={style.green}>
-                  Hello, {name}!
+            <div class="alert alert-danger" role="alert">
+               <h4 class="alert-heading">Внимание!</h4>
+               <p>Данный раздел сайта предназначен для личных заметок разработчика.</p>
+               <hr />
+            </div>
+
+            <div>
+               <div className={style.title}>React UseStateHook</div>
+               <div>
+                  <UseStateHookCount />
                </div>
             </div>
+
             <hr />
 
-            0.2
             <div>
-               <button className={btnClass}>{label}</button>
+               <div className={style.title}>React UseEffectHook</div>
+               <div>
+                  <UseEffectHook />
+               </div>
             </div>
+
             <hr />
 
-            0.3
-            <div class="alert alert-success" role="alert">
-               <h4 class="alert-heading">Well done!</h4>
-               <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-               <hr />
-               <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-            </div>
-         </div>
-
-         <div>
-            0.4
-            <hr />
-            <TestCount />
-         </div>
-         <hr />
-         <div>
-            0.5
-            <TestButtonCount />
-         </div>
-         <hr />
-         <div>
-            0.6
             <div>
-               <TestTextShow />
+               <div className={style.title}>React UseRefHook</div>
+               <div>
+                  <UseRefHook />
+               </div>
             </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ToDoBox</div>
+               <div>
+                  <TodoBox />
+               </div>
+            </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ClassComponentButtonCountButtonActiv</div>
+               <div>
+                  <ButtonCount />
+               </div>
+            </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ClassComponentCount</div>
+               <div>
+                  <Count />
+               </div>
+            </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ClassComponentFlavourFormAlert</div>
+               <div>
+                  <FlavourForm />
+               </div>
+            </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ClassComponentForm</div>
+               <div>
+                  <Form />
+               </div>
+            </div>
+
+            <hr />
+
+            <div>
+               <div className={style.title}>ClassComponentModalWindow</div>
+               <div>
+                  <ModalWindow />
+               </div>
+            </div>
+
+
+
          </div>
-         <hr />
-         <div>
-            0.7
-            <SocialButton />
-         </div>
-         <hr />
-         <div>
-            0.8
-            <TestForm text={'hey!'} />
-         </div>
-         <hr />
-         <div>
-            0.9
-            <Editor text='initial text' />
-         </div>
-         <hr />
-         <div>
-            1.0
-            <FlavourForm />
-         </div>
-         <hr />
-         <div>
-            1.1
-            <TodoBox />
-         </div>
-         <hr />
-         <div>
-            1.2
-            <Component />
-         </div>
-         <hr />
-         <div>
-            1.3
-            <Loader />
-         </div>
-         <hr />
-         <div>
-            1.4
-            <Autocomplete />
-         </div>
-         <hr />
-         <div>
-            1.5
-            <Clock />
-         </div>
-         <hr />
-         <div>
-            Hooks
-         </div>
-         <hr />
-         <div>
-            2.0 UseState
-            <UseStateHookCount />
-         </div>
-         <hr />
-         <div>
-            2.1 UseEffect
-            <UseEffectHook />
-         </div>
-         <hr />
-         <div>
-            2.2 UseRef
-            <UseRefHook />
-         </div>
-      </div>;
+      )
    }
-}
-Test.defaultProps = {
-   name: 'Petya defaultProps',
 }

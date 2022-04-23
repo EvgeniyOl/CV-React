@@ -15,7 +15,7 @@ export class FlavourForm extends React.Component {
    render() {
       return <form onSubmit={this.handleSubmit}>
          <label> Pick your favorite La Croix flavor:
-            <select value={this.state.value} onChange={this.handleChange}>
+            <select className="btn btn-secondary m-3" value={this.state.value} onChange={this.handleChange}>
                <option value="">Select a fruit</option>
                <option value="grapefruit">Grapefruit</option>
                <option value="lime">Lime</option>
@@ -23,7 +23,7 @@ export class FlavourForm extends React.Component {
                <option value="mango">Mango</option>
             </select>
          </label>
-         <input type="submit" value="Submit" />
+         <input className="btn btn-primary m-3" type="submit" value="Submit" />
       </form>
    }
 }

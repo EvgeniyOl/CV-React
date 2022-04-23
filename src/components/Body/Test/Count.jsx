@@ -1,6 +1,6 @@
 import React from "react";
 
-class TestCount extends React.Component {
+class Count extends React.Component {
    constructor(props) {
       super(props);
       this.state = { count: 0 };
@@ -13,9 +13,9 @@ class TestCount extends React.Component {
    }
    render() {
       return <div>
-         <button onClick={this.handleClick}>Count: {this.state.count}</button>
-         <button onClick={this.zeroButtonClick}>Zero</button>
+         <button className="btn btn-success m-3" onClick={this.handleClick}>Count: {this.state.count}</button>
+         <button className="btn btn-primary m-3" onClick={this.zeroButtonClick}>Refresh</button>
       </div>
    }
 }
-export default TestCount;
+export default Count;

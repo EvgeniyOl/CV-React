@@ -1,7 +1,7 @@
 import React from "react";
 import cn from 'classnames';
 
-export class TestButtonCount extends React.Component {
+export class ButtonCount extends React.Component {
    constructor(props) {
       super(props);
       this.state = { count: 0, primary: false };

@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from './Modal.jsx';
 
-export default class Component extends React.Component {
+export default class ModalWindow extends React.Component {
    constructor(props) {
       super(props);
       this.state = { modal: false };
@@ -18,7 +18,7 @@ export default class Component extends React.Component {
       const { modal } = this.state;
       return (
          <div>
-            <button type="button" className="modal-open-button btn btn-danger" onClick={this.toggle}>Open</button>
+            <button type="button" className="modal-open-button btn btn-danger m-3" onClick={this.toggle}>Open</button>
             <Modal isOpen={modal}>
                <Modal.Header toggle={this.toggle}>Modal title</Modal.Header>
                <Modal.Body>
