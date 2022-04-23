@@ -13,6 +13,9 @@ import Component from "./TestModalWindow";
 import { Loader } from "./Loader";
 import Autocomplete from "./Autocomplite";
 import { Clock } from "./Clock2";
+import { UseStateHookCount } from "./UseStateHook";
+import { UseEffectHook } from "./UseEffectHook";
+import { UseRefHook } from "./UseRefHook";
 
 export default class Test extends React.Component {
    render() {
@@ -120,8 +123,22 @@ export default class Test extends React.Component {
          </div>
          <hr />
          <div>
-            1.6
-
+            Hooks
+         </div>
+         <hr />
+         <div>
+            2.0 UseState
+            <UseStateHookCount />
+         </div>
+         <hr />
+         <div>
+            2.1 UseEffect
+            <UseEffectHook />
+         </div>
+         <hr />
+         <div>
+            2.2 UseRef
+            <UseRefHook />
          </div>
       </div>;
    }

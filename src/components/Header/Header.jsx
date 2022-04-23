@@ -1,6 +1,6 @@
 import location from "./../../Images/marker.png";
 import clock from "./../../Images/sand-clock.png";
-import { Clock, Clock2 } from "./Clock/Clock";
+import { Clock } from "./Clock/Clock";
 import styles from "./Header.module.css";
 
 const Header = (props) => {
@@ -9,12 +9,11 @@ const Header = (props) => {
    return (
       <div className={styles.headerContainer}>
          <div className={styles.clock}>
-            <img src={clock} alt="clock" />
             <Clock />
-            <Clock2 />
+            {/* <Clock2 /> */}
          </div>
          <div className={styles.cv}>
-            CV Evgeniy Olyanskii
+            Резюме
          </div>
          <div className={styles.location}>
             <img src={location} alt="Logo" />

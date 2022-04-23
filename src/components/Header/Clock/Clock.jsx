@@ -1,19 +1,19 @@
-import { useState } from "react";
+// import { useState } from "react";
 import styles from "./Clock.module.css";
 import React from "react";
 
-export const Clock = () => {
-   const [date, setDate] = useState(new Date())
+// export const Clock2 = () => {
+//    const [date, setDate] = useState(new Date())
 
-   return (
-      <div className={styles.clock}>
-         <p>Время: {date.toLocaleTimeString()}</p>
-         <button className={styles.refresh} onClick={() => setDate(new Date())}>Обновить</button>
-      </div>
-   )
-}
+//    return (
+//       <div className={styles.clock}>
+//          <p>Время: {date.toLocaleTimeString()}</p>
+//          <button className={styles.refresh} onClick={() => setDate(new Date())}>Обновить</button>
+//       </div>
+//    )
+// }
 
-export class Clock2 extends React.Component {
+export class Clock extends React.Component {
    constructor(props) {
       super(props);
       this.state = { date: new Date() };
@@ -30,7 +30,7 @@ export class Clock2 extends React.Component {
    render() {
       const { date } = this.state;
       return (
-         <div>{date.toLocaleTimeString()}</div>
+         <div className={styles.clock}>Время: {date.toLocaleTimeString()}</div>
       );
    }
 }
