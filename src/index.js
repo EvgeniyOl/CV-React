@@ -5,13 +5,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
+import { Provider } from "react-redux"; //Подключаем Provider чтобы прокинуть в приложение store
+import store from './Store';
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>,
+    <React.StrictMode>
+      <HashRouter >
+        <Provider store={store}>
+         <App />
+        </Provider>
+      </HashRouter>
+    </React.StrictMode>,
   document.getElementById("root")
 );
 

@@ -1,4 +1,3 @@
-import Editor from "@toast-ui/editor";
 import React from "react";
 import { ButtonCount } from "./ButtonCount";
 import Count from "./Count";
@@ -10,6 +9,7 @@ import { UseStateHookCount } from "./Hooks/UseStateHook";
 import ModalWindow from "./Modal/ModalWindow";
 import style from "./Test.module.css";
 import TodoBox from "./ToDoBox/TestToDoBox";
+import { AppTodoList } from "./TodoList/AppTodoList";
 
 export default class Test extends React.Component {
    render() {
@@ -100,6 +100,14 @@ export default class Test extends React.Component {
                </div>
             </div>
 
+            <hr />
+
+            <div>
+               <div className={style.title}>ReduxCountComponent</div>
+               <div>
+                  <AppTodoList />
+               </div>
+            </div>
 
 
          </div>
