@@ -9,7 +9,7 @@ class Count extends React.Component {
       this.setState({ count: this.state.count + 1 });
    }
    zeroButtonClick = () => {
-      this.setState({ count: this.state.count = 0 });
+      this.setState({ count: 0 });
    }
    render() {
       return <div>
