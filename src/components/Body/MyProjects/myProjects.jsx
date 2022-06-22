@@ -51,7 +51,7 @@ const MyProjects = (props) => {
             <li>Проект явлюяется аналогом сайта для компании по информационной безопасности</li>
          </ul>
          <hr size="5" />
-         <p>Шестой проект - <a href="https://kofevarka-service-o9v0d00hg-evgeniyol.vercel.app/Shop" target="blank">Kofevarka Service Omsk</a></p>
+         <p>Шестой проект - <a href="https://kofevarka-service-gn7qm1u37-evgeniyol.vercel.app/" target="blank">Kofevarka Service Omsk</a></p>
          <ul>
             <li>Проект еще в разработке. </li>
             <li>Компания занимающаяся сервисом профессиональных и бытовых кофемашин, а так же продажей кофе и сопутствующих товаров.</li>
