@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-React/static/css/main.69397c4a.css",
-    "main.js": "/CV-React/static/js/main.a2b13556.js",
+    "main.js": "/CV-React/static/js/main.76e97d6a.js",
     "static/media/Screenshot 1.png": "/CV-React/static/media/Screenshot 1.40a1227951882a952718.png",
     "static/media/myPhoto.jpg": "/CV-React/static/media/myPhoto.a107c7f1585ab94a1f32.jpg",
     "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/CV-React/static/media/Visual_Studio_Code_1.35_icon.svg.e66400756ccbdbfc0b31.png",
@@ -14,13 +14,14 @@
     "static/media/Git_icon.svg.png": "/CV-React/static/media/Git_icon.svg.140fa4d62c3584333da4.png",
     "static/media/marker.png": "/CV-React/static/media/marker.462a3d6b123d643279be.png",
     "static/media/sand-clock.png": "/CV-React/static/media/sand-clock.2269a661fb768a50ab72.png",
+    "static/media/vercel.webp": "/CV-React/static/media/vercel.422824845f936f7ce08f.webp",
     "static/media/react-icon1.svg": "/CV-React/static/media/react-icon1.903d77ad940b12efaddde2484397ad4a.svg",
     "index.html": "/CV-React/index.html",
     "main.69397c4a.css.map": "/CV-React/static/css/main.69397c4a.css.map",
-    "main.a2b13556.js.map": "/CV-React/static/js/main.a2b13556.js.map"
+    "main.76e97d6a.js.map": "/CV-React/static/js/main.76e97d6a.js.map"
   },
   "entrypoints": [
     "static/css/main.69397c4a.css",
-    "static/js/main.a2b13556.js"
+    "static/js/main.76e97d6a.js"
   ]
 }
